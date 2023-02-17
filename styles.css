@@ -1,0 +1,104 @@
+
+* {
+margin: 0;
+padding: 0;  
+box-sizing: border-box;
+}
+/* navbar style */
+nav{
+  width: 100%;
+  height: 15vh;
+  background: rgba(0,0,0,0.1);
+  color: black; display: flex; justify-content: space-between;
+  align-items: center; text-transform: uppercase;
+}
+.logo{
+  text-align: center; width: 25%;
+
+}
+.menu{
+  width: 40%;
+  display: flex; justify-content: space-around;
+}
+a{
+  width: 25%;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.first-letter{
+  color: #BFDB38;
+  font-size: 40px;
+}
+span{
+  color: white;
+}
+
+/* navbar style */
+
+.example-1{  
+ 
+  border-radius: 25px;
+  width: 1200px;
+   margin: 50px 0;
+}
+
+.cardTitle {
+  color: black;
+	font-size: 20px;
+
+}
+.card {
+  float: left;
+ width: 80%;
+ }
+ .data {
+  padding: 50px;
+  background-color: white;
+  box-shadow: 0 5px 30px 10px rgba(black, 0.3);
+ float: right;
+    width: 60%;
+	  height: 100%;
+}
+.author {
+  font-weight: bold;
+    font-size: 20px;
+ }
+p{
+     font-size: 20px;
+  }
+.title {
+    margin-top: 10px;
+}
+.text {
+    padding-bottom: 150px;
+    height: 100px;
+    margin: 0;
+  }
+  
+.content {
+  padding: 30px;
+    background-color: white;
+    box-shadow: 0 5px 30px 10px rgba(black, 0.3);
+}
+.title a {
+      color: lighten(black, 50%);
+}
+  
+.vedio {
+  
+  display: block;
+	float: left;
+	width: 40%;
+}
+.vedio1{
+  background-size: cover;
+  border-radius: 25px;
+}
+
+
+
+
+
+
+
